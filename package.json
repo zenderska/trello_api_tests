@@ -1,0 +1,18 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "Project for strong Postman tests",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-production": "newman run tests/Trello.postman_collection.json"
+  },
+  "author": "Victor Dobry",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^4.1.0"
+  },
+  "devDependencies": {}
+}
